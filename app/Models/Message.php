@@ -10,5 +10,9 @@ class Message extends Model
     use HasFactory;
     protected $fillable=['titre', 'texte','numero','date','modif'];
 
+    public function utilisateur()
+    {
+        return $this->belongsTo (Utilisateur::class);
+    }
 
 }
