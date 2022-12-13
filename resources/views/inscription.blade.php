@@ -7,7 +7,7 @@
 
 
         </ul>
-        <button>Inscription</button>
+        <button>Inscription </button>
     </form>
 
 
