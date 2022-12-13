@@ -26,6 +26,13 @@
     <td class="navbar-item is-bordered"><a href="{{url ('parametre')}}">Paramétre</a></td> {{-- Aller vers les parametres  --}}
     </tr>
 </table>
+<table class="navbar">
+    <tr class="navbar-start">
+        <td class="navbar-item is-bordered" ><a href="{{url  ('connexion')}}">Se connecter</a></td> {{-- Se connecter --}}
+        <td class="navbar-item is-bordered"><a href="{{url  ('inscription')}}">S'inscrire</a></td> {{-- S'inscrire   --}}
+
+    </tr>
+</table>
 @yield('contenu')
 <br>
 <footer>Site crée par Charlie LABAT au sein des projets BTS SIO du Lycée Merleau-Ponty  </footer>
