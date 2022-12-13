@@ -34,3 +34,9 @@ Route::get ('compte', function (){
 Route::get ('creersujet', function (){
     return view ('creersujet');
 });
+Route::get ('connexion', function (){
+    return view ('connexion');
+});
+Route::get ('inscription', function (){
+    return view ('inscription');
+});

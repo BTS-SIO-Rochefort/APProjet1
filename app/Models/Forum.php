@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Forum extends Model
 {
     use HasFactory;
-    protected $fillable=['titreForum', 'description'];
+    protected $fillable=['titreForum', 'description', 'sujet_id'];
 
     public function sujets()
     {
